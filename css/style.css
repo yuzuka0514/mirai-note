@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+/* base ---------------------------------------------- */
+body {
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+h1 {
+    font-size: 30px;
+    border-left: solid 10px #FFAE42;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    border-left: solid 10px #FFAE42;
+    margin-top: 100px;
+    margin-left: 2%;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-size: 19px;
+    margin-top: 5%;
+}
+
+p {
+    padding: 0 4%;
+}
+
+table {
+    padding: 2%;
+}
+
+th {
+    text-align: center;
+    background-color: #93ABB7;
+    border: solid 1px #000;
+}
+
+td {
+    border: solid 1px #000;
+}
+
+ol {
+    padding: 0 10%;
+}
+
+ul {
+    width: 90%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    column-count: 2;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2AB09D;
+}
+
+a:visited {
+    color: #F59E0B;
+}
+
+button:hover {
+    color: #2AB09D;
+    background-color: #fff;
+    border: 2px solid #2AB09D;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* style ---------------------------------------------- */
+.container {
+    width: 393px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100vh;
+    /*全画面表示*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/eyecatch.png);
+}
+
+#logo {
+    width: 140px;
+    /*←仮の横幅指定。必要に応じて変える*/
+    height: 60px;
+    /*←仮の高さ指定。画像を入れたらautoに変える*/
+}
+
+/*
+#menu {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 35px;
+}
+*/
+
+.Catchphrase {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 2px 3px 0px #000000;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.supplement {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 3px 0px #000000;
+    margin: 0 auto;
+    margin-top: 390px;
+}
+
+#button {
+    text-align: center;
+}
+
+header button,
+section button {
+    border-radius: 20px;
+
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #2AB09D;
+    margin: 5px 0;
+    transition: all 0.5s ease;
+}
+
+.guidance {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contents {
+    width: 100%;
+    height: auto;
+    /* ←仮の高さ。内容に合わせて変える */
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.appguide {
+    margin: 0 auto;
+    margin: 20px 80px 0 80px;
+}
+
+#version {
+    display: flex;
+    margin-top: 3%;
+}
+
+.PC,
+.Smartphone {
+    width: 50%;
+    padding: 2%;
+}
+
+.tabu {
+    margin-top: 3%;
+}
+
+.supplementary {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 4%;
+}
+
+footer button {
+    width: 300px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.arrow {
+    font-size: 12px;
+}
+
+.footerlink p {
+    width: 210px;
+    display: flex;
+    margin: 10% 0 10% 4%;
+}
+
+.footerlink p,
+.footerlink li {
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 12px 10px;
+}
+
+.footerlink li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copy {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #275870;
+    padding: 3% 0;
+}
